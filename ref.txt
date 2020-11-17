@@ -1,6 +1,98 @@
 Unit 14, Commercia Business Park, 138 Settler Road, Commercia, Midrand 1682
 
+<section class="contact-area " id="contactus">
+      <div class="section-heading">
+        <h2>Get in touch</h2>
+        <i class="fa fa-2x fa-angle-down"></i>
+      </div>
+      <div class="bg-img-ctus">
+        <div class="container contact-container">
+          <h4>
+            <p class="p-heading">Fill in the form below and we will get back to you.</p>
+            <!-- <span class="success-message"></span>
+            <span class="error-message"></span> -->
+          </h4>
+          <div class="row">
+            <!-- Contact Form Area -->
+            <div class="col-lg-8">
+              <div class="contact-heading">
+                <h3 class="test">Contact info</h3>
+              </div>
+              <div class="contact-form-container">
+                <form class="contact-form" action="php/contact.php" method="post">
+                  <div class="row ">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="name" id="contact-name" placeholder="Your Name">
+                        <!-- <div class="validate"></div> -->
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Subject">
+                        <!-- <div class="validate"></div> -->
+                      </div>
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="number" id="contact-number"
+                          placeholder="Your Phone">
+                        <!-- <div class="validate"></div> -->
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="contact-email"
+                          placeholder="Your Email">
+                        <!-- <div class="validate"></div> -->
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <textarea class="form-control" name="message" id="message" rows="8"
+                          placeholder="Your Message"></textarea>
+                        <!-- <div class="validate"></div> -->
+                      </div>
+                      <!-- <div class="loading">Loading</div> -->
+                      <!-- <div class="error-message"></div>
+                      <div class="sent-message">Your message has been sent. Thank you!</div> -->
 
+                      <div class="pd"><button type="submit" class="btn btn-md send-btn">Send Message</button></div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="contact-heading">
+                <h3>Find Us</h3>
+              </div>
+              <div class="content-sidebar">
+                <div class="weekly-office-hours">
+                  <ul>
+                    <li class="d-flex align-items-center justify-content-between"><span>Monday - Friday</span>
+                      <span>09 AM - 04 PM</span></li>
+                    <li class="d-flex align-items-center justify-content-between"><span>Saturday</span>
+                      <span>Closed</span></li>
+                    <li class="d-flex align-items-center justify-content-between"><span>Sunday</span>
+                      <span>Closed</span></li>
+                  </ul>
+                </div>
+
+                <div class="address mt-30">
+                  <h6><img src="assets/icons/location.png" alt=""> 3557 Moleleki Ex1 ,<br>Katlegong, Gauteng,<br>1431
+                  </h6>
+                  <h6><img src="assets/icons/whatsapp.png" alt="">
+                    <a href="tel:+27794102763 / +27677956305">C<span>ell</span>: 079 410 2763 / 067 795 6305 / <br>083
+                      543
+                      9713</a> </h6>
+                  <h6><img src="assets/icons/envelope.png" alt="">
+                    <a href="mailto:molotohouseplansa@gmail.com">molotohouseplansa@<span>gmail.com</span></a> </h6>
+                  <h6><img src="assets/icons/facebook.png" alt="">
+                    <a href="https://www.facebook.com/DraughtsmanMOLOTO/">M<span>oloto</span> HOUSE PLAN SA</a> </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
 https://getbootstrap.com/docs/4.5/getting-started/introduction/
 
 
