@@ -784,21 +784,42 @@ section {
 .tab-content p {
   text-align: center;
 }
-.nav-tabs .nav-item:active{
-  
-  color:  rgb(34, 61, 97);
+
+.nav-tabs .nav-item:active {
+  color: rgb(34, 61, 97);
 }
 
-.nav-link:hover{
-  color:  rgb(155, 28, 31);
+.nav-link:hover {
+  color: rgb(155, 28, 31);
 }
 
 /* Team Section
 --------------------------------*/
 
-#team {
+#measures {
   background: #fff;
   padding: 60px 0;
+}
+
+.p-content {
+  padding: 50px;
+}
+
+/* .media .text-dark{
+  transition: box-shadow 0.5s;
+} */
+
+.media:hover {
+  background-color: rgba(45, 143, 168, 0.767);
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.pro-active-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title-header {
+  color: rgb(155, 28, 15);
 }
 
 /* Contact Section
