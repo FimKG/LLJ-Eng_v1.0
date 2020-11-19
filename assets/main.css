@@ -774,7 +774,13 @@ section {
 --------------------------------*/
 
 #coreValues {
-  height: 500px;
+  height: 300px;
+}
+
+@media only screen and (max-device-width: 640px) {
+  #coreValues {
+    height: 400px;
+  }
 }
 
 .tab-content h3 {
@@ -852,9 +858,9 @@ section {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.address .addpin, .address a {
+.address .addpin, .address h6 i a {
   position: relative;
-  z-index: 1;
+  z-index: 10;
   line-height: 1.5;
   display: block;
   font-size: 14px;
@@ -863,11 +869,53 @@ section {
 }
 
 .address h6 i {
-  /* position: absolute;   */
   top: 4px;
   z-index: 10;
   left: 0;
   color: rgba(45, 143, 168, 0.767);
+}
+
+.address h6 a {
+  text-decoration: none;
+  color: rgb(34, 61, 97);
+}
+
+.address h6 span {
+  text-transform: lowercase;
+}
+
+/* @media only screen and (min-width: 375px) {
+  #iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #iframe {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  #video {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #video {
+    display: block;
+  }
+  #iframe {
+    display: none;
+  }
+} */
+
+@media only screen and (max-device-width: 640px) {
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @-webkit-keyframes animate-loading {
